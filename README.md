@@ -1,5 +1,5 @@
 IDA Pro plugin to enhance the JumpAsk 'g' command
-
+IDA中一种增强跳转的插件，能使用表达式跳转。
 
 # Installation
 
@@ -38,3 +38,4 @@ You do not have to match `[` and `]` symbols:
     `[[[eax` - This will automatically have enough `]` symbols appended to the end of the query to match the opening `[` symbols  
                The final result would be a triple dereference of eax - `[[[eax]]]`  
                The matching brace completion only supports the `[` symbol currently and will not match `(` symbols. All auto added braces are put at the end of the input expression  
+
